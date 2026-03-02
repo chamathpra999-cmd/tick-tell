@@ -1,0 +1,336 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tick &amp; Tell | Premium Watches</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white text-zinc-900 antialiased selection:bg-zinc-200">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-zinc-900 px-4 py-2 text-center">
+        <p class="text-sm font-light text-zinc-100">Free worldwide delivery on orders over $200.</p>
+    </div>
+
+    <!-- Navigation -->
+    <header class="sticky top-0 z-50 border-b border-zinc-100 bg-white/80 backdrop-blur-md">
+        <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+            <!-- Mobile Menu Button -->
+            <div class="flex lg:hidden">
+                <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-zinc-700 hover:text-zinc-900">
+                    <span class="sr-only">Open main menu</span>
+                    <i data-lucide="menu" class="h-6 w-6"></i>
+                </button>
+            </div>
+
+            <!-- Logo -->
+            <div class="flex flex-1 justify-center lg:justify-start">
+                <a href="#" class="-m-1.5 p-1.5 flex flex-col items-center">
+                    <span class="text-2xl font-medium tracking-tight">T<span class="text-lg">&amp;</span>T</span>
+                    <span class="text-xs font-medium tracking-[0.2em] uppercase mt-0.5">Tick &amp; Tell</span>
+                </a>
+            </div>
+
+            <!-- Desktop Links -->
+            <div class="hidden lg:flex lg:gap-x-12">
+                <a href="#" class="text-base font-medium leading-6 text-zinc-900 hover:text-zinc-600 transition-colors">Collection</a>
+                <a href="#" class="text-base font-medium leading-6 text-zinc-900 hover:text-zinc-600 transition-colors">Ladies</a>
+                <a href="#" class="text-base font-medium leading-6 text-zinc-900 hover:text-zinc-600 transition-colors">Gents</a>
+                <a href="#" class="text-base font-medium leading-6 text-zinc-900 hover:text-zinc-600 transition-colors">About</a>
+            </div>
+
+            <!-- Icons -->
+            <div class="flex flex-1 justify-end items-center gap-4">
+                <a href="#" class="text-zinc-700 hover:text-zinc-900 transition-colors">
+                    <span class="sr-only">Search</span>
+                    <i data-lucide="search" class="h-5 w-5"></i>
+                </a>
+                <a href="#" class="text-zinc-700 hover:text-zinc-900 transition-colors relative">
+                    <span class="sr-only">Cart</span>
+                    <i data-lucide="shopping-bag" class="h-5 w-5"></i>
+                    <span class="absolute -top-1.5 -right-1.5 flex h-4 w-4 items-center justify-center rounded-full bg-zinc-900 text-[0.65rem] font-medium text-white">2</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Welcome Hero Section -->
+        <section class="relative overflow-hidden bg-zinc-50 pt-16 md:pt-24 lg:pt-32 pb-16">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-16">
+                <div class="w-full lg:w-1/2 max-w-2xl text-center lg:text-left">
+                    <h1 class="text-4xl font-medium tracking-tight text-zinc-900 sm:text-6xl">
+                        Timepieces that tell your story.
+                    </h1>
+                    <p class="mt-6 text-lg leading-8 text-zinc-600 font-light">
+                        Discover our meticulously curated collection of ladies and gents watches. Precision engineering meets timeless elegance for the modern wrist.
+                    </p>
+                    <div class="mt-10 flex items-center justify-center lg:justify-start gap-x-6">
+                        <a href="#gallery" class="rounded-full bg-zinc-900 px-8 py-3.5 text-base font-medium text-white shadow-sm hover:bg-zinc-800 transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900">
+                            Explore Collection
+                        </a>
+                        <a href="#" class="text-base font-medium leading-6 text-zinc-900 hover:text-zinc-600 group flex items-center gap-2">
+                            Our Heritage <i data-lucide="arrow-right" class="h-4 w-4 transition-transform group-hover:translate-x-1"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 mt-10 lg:mt-0">
+                    <div class="relative aspect-[4/3] lg:aspect-square w-full rounded-3xl overflow-hidden bg-zinc-200">
+                        <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&amp;w=2080&amp;auto=format&amp;fit=crop" alt="Elegant dark watch on wrist" class="absolute inset-0 h-full w-full object-cover object-center">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Store Product Gallery -->
+        <section id="gallery" class="py-24 sm:py-32 bg-white">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                
+                <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+                    <div>
+                        <h2 class="text-3xl font-medium tracking-tight text-zinc-900 sm:text-4xl">Latest Arrivals</h2>
+                        <p class="mt-4 text-lg text-zinc-600 font-light max-w-xl">Find the perfect companion for every occasion from our selection of premium watches.</p>
+                    </div>
+                    
+                    <!-- Filter Tabs -->
+                    <div class="flex space-x-1 rounded-full bg-zinc-100 p-1">
+                        <button class="rounded-full bg-white px-6 py-2 text-base font-medium text-zinc-900 shadow-sm transition-all">All</button>
+                        <button class="rounded-full px-6 py-2 text-base font-medium text-zinc-600 hover:text-zinc-900 transition-all">Ladies</button>
+                        <button class="rounded-full px-6 py-2 text-base font-medium text-zinc-600 hover:text-zinc-900 transition-all">Gents</button>
+                    </div>
+                </div>
+
+                <!-- Product Grid -->
+                <div class="grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+                    
+                    <!-- Product 1 (Gents) -->
+                    <div class="group relative flex flex-col">
+                        <div class="aspect-[4/5] w-full overflow-hidden rounded-2xl bg-zinc-100 relative">
+                            <img src="https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?q=80&amp;w=1974&amp;auto=format&amp;fit=crop" alt="Silver chronograph watch" class="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-black/5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+                            
+                            <!-- Purchase Icon Overlay -->
+                            <button class="absolute bottom-4 right-4 flex h-12 w-12 items-center justify-center rounded-full bg-white text-zinc-900 shadow-lg opacity-0 translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 hover:bg-zinc-900 hover:text-white z-10">
+                                <span class="sr-only">Add to cart</span>
+                                <i data-lucide="shopping-bag" class="h-5 w-5"></i>
+                            </button>
+                        </div>
+                        <div class="mt-5 flex justify-between items-start">
+                            <div>
+                                <h3 class="text-lg font-medium text-zinc-900">
+                                    <a href="#">
+                                        <span aria-hidden="true" class="absolute inset-0"></span>
+                                        Chronograph Precision
+                                    </a>
+                                </h3>
+                                <p class="mt-1.5 text-base text-zinc-500 font-light flex items-center gap-1.5">
+                                    <i data-lucide="truck" class="h-4 w-4"></i> Free Delivery
+                                </p>
+                            </div>
+                            <p class="text-lg font-medium text-zinc-900">$349</p>
+                        </div>
+                    </div>
+
+                    <!-- Product 2 (Ladies) -->
+                    <div class="group relative flex flex-col">
+                        <div class="aspect-[4/5] w-full overflow-hidden rounded-2xl bg-zinc-100 relative">
+                            <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/917d6f93-fb36-439a-8c48-884b67b35381_1600w.jpg" alt="Minimalist rose gold watch" class="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-black/5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+                            
+                            <!-- Purchase Icon Overlay -->
+                            <button class="absolute bottom-4 right-4 flex h-12 w-12 items-center justify-center rounded-full bg-white text-zinc-900 shadow-lg opacity-0 translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 hover:bg-zinc-900 hover:text-white z-10">
+                                <span class="sr-only">Add to cart</span>
+                                <i data-lucide="shopping-bag" class="h-5 w-5"></i>
+                            </button>
+                        </div>
+                        <div class="mt-5 flex justify-between items-start">
+                            <div>
+                                <h3 class="text-lg font-medium text-zinc-900">
+                                    <a href="#">
+                                        <span aria-hidden="true" class="absolute inset-0"></span>
+                                        Rose Gold Minimal
+                                    </a>
+                                </h3>
+                                <p class="mt-1.5 text-base text-zinc-500 font-light flex items-center gap-1.5">
+                                    <i data-lucide="truck" class="h-4 w-4"></i> $5 Delivery Fee
+                                </p>
+                            </div>
+                            <p class="text-lg font-medium text-zinc-900">$189</p>
+                        </div>
+                    </div>
+
+                    <!-- Product 3 (Gents) -->
+                    <div class="group relative flex flex-col">
+                        <div class="aspect-[4/5] w-full overflow-hidden rounded-2xl bg-zinc-100 relative">
+                            <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?q=80&amp;w=1988&amp;auto=format&amp;fit=crop" alt="Classic leather strap watch" class="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-black/5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+                            
+                            <!-- Purchase Icon Overlay -->
+                            <button class="absolute bottom-4 right-4 flex h-12 w-12 items-center justify-center rounded-full bg-white text-zinc-900 shadow-lg opacity-0 translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 hover:bg-zinc-900 hover:text-white z-10">
+                                <span class="sr-only">Add to cart</span>
+                                <i data-lucide="shopping-bag" class="h-5 w-5"></i>
+                            </button>
+                        </div>
+                        <div class="mt-5 flex justify-between items-start">
+                            <div>
+                                <h3 class="text-lg font-medium text-zinc-900">
+                                    <a href="#">
+                                        <span aria-hidden="true" class="absolute inset-0"></span>
+                                        Vintage Leather
+                                    </a>
+                                </h3>
+                                <p class="mt-1.5 text-base text-zinc-500 font-light flex items-center gap-1.5">
+                                    <i data-lucide="truck" class="h-4 w-4"></i> Free Delivery
+                                </p>
+                            </div>
+                            <p class="text-lg font-medium text-zinc-900">$215</p>
+                        </div>
+                    </div>
+
+                    <!-- Product 4 (Ladies) -->
+                    <div class="group relative flex flex-col">
+                        <div class="aspect-[4/5] w-full overflow-hidden rounded-2xl bg-zinc-100 relative">
+                            <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/4734259a-bad7-422f-981e-ce01e79184f2_1600w.jpg" alt="Silver mesh band watch" class="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-black/5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+                            
+                            <!-- Purchase Icon Overlay -->
+                            <button class="absolute bottom-4 right-4 flex h-12 w-12 items-center justify-center rounded-full bg-white text-zinc-900 shadow-lg opacity-0 translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 hover:bg-zinc-900 hover:text-white z-10">
+                                <span class="sr-only">Add to cart</span>
+                                <i data-lucide="shopping-bag" class="h-5 w-5"></i>
+                            </button>
+                        </div>
+                        <div class="mt-5 flex justify-between items-start">
+                            <div>
+                                <h3 class="text-lg font-medium text-zinc-900">
+                                    <a href="#">
+                                        <span aria-hidden="true" class="absolute inset-0"></span>
+                                        Lumina Silver
+                                    </a>
+                                </h3>
+                                <p class="mt-1.5 text-base text-zinc-500 font-light flex items-center gap-1.5">
+                                    <i data-lucide="truck" class="h-4 w-4"></i> Free Delivery
+                                </p>
+                            </div>
+                            <p class="text-lg font-medium text-zinc-900">$260</p>
+                        </div>
+                    </div>
+
+                    <!-- Product 5 (Gents) -->
+                    <div class="group relative flex flex-col">
+                        <div class="aspect-[4/5] w-full overflow-hidden rounded-2xl bg-zinc-100 relative">
+                            <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&amp;w=1976&amp;auto=format&amp;fit=crop" alt="Black dive watch" class="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-black/5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+                            
+                            <!-- Purchase Icon Overlay -->
+                            <button class="absolute bottom-4 right-4 flex h-12 w-12 items-center justify-center rounded-full bg-white text-zinc-900 shadow-lg opacity-0 translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 hover:bg-zinc-900 hover:text-white z-10">
+                                <span class="sr-only">Add to cart</span>
+                                <i data-lucide="shopping-bag" class="h-5 w-5"></i>
+                            </button>
+                        </div>
+                        <div class="mt-5 flex justify-between items-start">
+                            <div>
+                                <h3 class="text-lg font-medium text-zinc-900">
+                                    <a href="#">
+                                        <span aria-hidden="true" class="absolute inset-0"></span>
+                                        Ocean Diver Pro
+                                    </a>
+                                </h3>
+                                <p class="mt-1.5 text-base text-zinc-500 font-light flex items-center gap-1.5">
+                                    <i data-lucide="truck" class="h-4 w-4"></i> $10 Delivery Fee
+                                </p>
+                            </div>
+                            <p class="text-lg font-medium text-zinc-900">$420</p>
+                        </div>
+                    </div>
+
+                    <!-- Product 6 (Ladies) -->
+                    <div class="group relative flex flex-col">
+                        <div class="aspect-[4/5] w-full overflow-hidden rounded-2xl bg-zinc-100 relative">
+                            <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/c543a9e1-f226-4ced-80b0-feb8445a75b9_1600w.jpg" alt="Gold square dial watch" class="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-black/5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+                            
+                            <!-- Purchase Icon Overlay -->
+                            <button class="absolute bottom-4 right-4 flex h-12 w-12 items-center justify-center rounded-full bg-white text-zinc-900 shadow-lg opacity-0 translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 hover:bg-zinc-900 hover:text-white z-10">
+                                <span class="sr-only">Add to cart</span>
+                                <i data-lucide="shopping-bag" class="h-5 w-5"></i>
+                            </button>
+                        </div>
+                        <div class="mt-5 flex justify-between items-start">
+                            <div>
+                                <h3 class="text-lg font-medium text-zinc-900">
+                                    <a href="#">
+                                        <span aria-hidden="true" class="absolute inset-0"></span>
+                                        Aura Gold Edition
+                                    </a>
+                                </h3>
+                                <p class="mt-1.5 text-base text-zinc-500 font-light flex items-center gap-1.5">
+                                    <i data-lucide="truck" class="h-4 w-4"></i> Free Delivery
+                                </p>
+                            </div>
+                            <p class="text-lg font-medium text-zinc-900">$299</p>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="mt-16 flex justify-center">
+                    <button class="rounded-full border border-zinc-200 bg-white px-8 py-3.5 text-base font-medium text-zinc-900 shadow-sm hover:bg-zinc-50 transition-colors">
+                        View All Products
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-zinc-50 border-t border-zinc-200">
+        <div class="mx-auto max-w-7xl px-6 py-12 lg:px-8 flex flex-col items-center">
+            <a href="#" class="flex flex-col items-center mb-8">
+                <span class="text-2xl font-medium tracking-tight text-zinc-900">T<span class="text-lg">&amp;</span>T</span>
+                <span class="text-xs font-medium tracking-[0.2em] uppercase mt-0.5 text-zinc-900">Tick &amp; Tell</span>
+            </a>
+            
+            <div class="flex flex-wrap justify-center gap-x-8 gap-y-4 mb-8">
+                <a href="#" class="text-base text-zinc-500 hover:text-zinc-900 transition-colors">Shop</a>
+                <a href="#" class="text-base text-zinc-500 hover:text-zinc-900 transition-colors">About Us</a>
+                <a href="#" class="text-base text-zinc-500 hover:text-zinc-900 transition-colors">Shipping</a>
+                <a href="#" class="text-base text-zinc-500 hover:text-zinc-900 transition-colors">Returns</a>
+                <a href="#" class="text-base text-zinc-500 hover:text-zinc-900 transition-colors">Contact</a>
+            </div>
+
+            <div class="flex gap-6 mb-8">
+                <a href="#" class="text-zinc-400 hover:text-zinc-900 transition-colors">
+                    <span class="sr-only">Instagram</span>
+                    <i data-lucide="instagram" class="h-5 w-5"></i>
+                </a>
+                <a href="#" class="text-zinc-400 hover:text-zinc-900 transition-colors">
+                    <span class="sr-only">Twitter</span>
+                    <i data-lucide="twitter" class="h-5 w-5"></i>
+                </a>
+                <a href="#" class="text-zinc-400 hover:text-zinc-900 transition-colors">
+                    <span class="sr-only">Facebook</span>
+                    <i data-lucide="facebook" class="h-5 w-5"></i>
+                </a>
+            </div>
+
+            <p class="text-center text-sm font-light text-zinc-500">© 2024 Tick &amp; Tell. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Initialize Lucide Icons with specific stroke width -->
+    <script>
+        lucide.createIcons({
+            strokeWidth: 1.5
+        });
+    </script>
+
+</body></html>
